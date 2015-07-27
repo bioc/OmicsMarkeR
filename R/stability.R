@@ -414,6 +414,7 @@ pairwise.model.stability <-
 #' Knowledge Discovery in Databases}. 313-325. 
 #' http://link.springer.com/chapter/10.1007/978-3-540-87481-2_21
 #' @example inst/examples/RPT.R
+#' @import assertive
 #' @export
 
 RPT <- 

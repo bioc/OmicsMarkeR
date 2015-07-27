@@ -5,7 +5,7 @@ assert_is_in_closed_range <-
     {
         msg <- sprintf("%s is not in range %s to %s.", 
                        get_name_in_parent(x), lower, upper)
-        assertive.base::assert_engine(x, is_in_closed_range, msg, lower = lower, 
+        assertive.base::assert_engine(is_in_closed_range, x, msg=msg, lower = lower, 
                       upper = upper)
     }
 
@@ -13,5 +13,5 @@ assert_is_positive <-
     function (x) 
     {
         msg <- sprintf("%s is non-positive.", get_name_in_parent(x))
-        assertive.base::assert_engine(x, is_positive, msg)
+        assertive.base::assert_engine(is_positive, x, msg=msg)
     }
