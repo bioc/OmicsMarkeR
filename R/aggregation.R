@@ -2,7 +2,6 @@
 ### Aggregation Methods ###
 ###########################
 
-
 #' @import utils
 
 ## Notation

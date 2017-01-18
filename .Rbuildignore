@@ -1,6 +1,9 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+<<<<<<< HEAD
 ^\.travis.yml
 appveyor.yml
 ^\.git\*
 ^\.gitignore
+=======
+>>>>>>> Creating branch for BioC 3.4 release
