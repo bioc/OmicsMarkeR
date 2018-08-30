@@ -42,8 +42,9 @@ be, is highly encouraged to seek out these articles.
 
 Stable version [Bioconductor](http://www.bioconductor.org/packages/release/bioc/html/OmicsMarkeR.html)
 ```r
-source("http://bioconductor.org/biocLite.R")
-biocLite("OmicsMarkeR")
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("OmicsMarkeR")
 ```
 
 ## Features in Progress

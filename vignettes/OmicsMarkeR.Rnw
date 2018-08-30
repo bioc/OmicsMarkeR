@@ -33,8 +33,9 @@ dataset.
 
 Install \Biocpkg{OmicsMarkeR} using  
 <<install, eval = FALSE>>=
-source("http://bioconductor.org/biocLite.R")
-biocLite("OmicsMarkeR")
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("OmicsMarkeR")
 @
     to ensure that all the needed packages are installed.
 
